@@ -77,11 +77,11 @@ function question5() {
 }
 function question6() {
     Answer6 = document.getElementById("button6").value;
-    if (Answer6 == "but i can't") {
+    if (Answer6 == "but unfortunately i can't") {
         document.getElementById("section6").style.display="none";
         document.getElementById("section7").style.display="block";
     }else{
-        alert("did you use all lowercase? I'm too lazy to add other possible answers");
+        alert("did you use all lowercase? I'm too lazy to add other possible answers with capital 'I's, it's like 5 more lines of code each");
     }
 }
 function question7() {
