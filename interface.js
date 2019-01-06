@@ -125,11 +125,11 @@ function question10() {
     }
 }
 function question11() {
-    Answer11 = document.getElementById("button11").value;
-    if (Answer11 == "hold back") {
+    Answer11 = $('input[name="drink"]:checked').val();
+    if (Answer11 == "Fill up water bottles for these thirsty bishes") {
         document.getElementById("section11").style.display="none";
         document.getElementById("section12").style.display="block";
     }else{
-        alert("wow i wish i had some way of seeing what the incorrect answers were for this. Alas, the limitations of JavaScript and my programming ability do not permit this :(");
+        alert("tbh all of these are true but specifically on mondays...?");
     }
 }
