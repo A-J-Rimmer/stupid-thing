@@ -88,6 +88,7 @@ function question6() {
         alert("did you use all lowercase? I'm too lazy to add other possible answers with capital 'I's, it's like 5 more lines of code each");
     }
 }
+}
 function question7() {
     Answer7 = document.getElementById("button7").value;
     if (Answer7 == 32) {
